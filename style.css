@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', ;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+h1 {
+    margin: 25px 0;
+}
+
+h6 {
+    color: hotpink;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin: 3px 0px;
+    padding: 5px 14px;
+}
+
+
+/* ------------------------------navbar----------------------------- */
+
+.navbar-brand img {
+    height: 55px;
+    width: 130px;
+}
+
+.navbar-nav a {
+    padding: 3px 25px !important;
+}
+
+
+/* -------------------------------catsole start----------------------- */
+
+.carousel-inner p {
+    padding-right: 140px;
+    color: gray;
+    margin-bottom: 20px;
+}

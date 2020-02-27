@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', ;
+    font-family: "Poppins";
 }
 
 .container {
@@ -17,12 +17,16 @@ h6 {
     color: hotpink;
 }
 
+p {
+    font-size: 12px;
+    color: gray;
+}
+
 .btn {
     border: none;
     color: white;
     background-color: black;
     border-radius: 10px;
-    margin: 3px 0px;
     padding: 5px 14px;
 }
 
@@ -45,4 +49,35 @@ h6 {
     padding-right: 140px;
     color: gray;
     margin-bottom: 20px;
+}
+
+
+/* ----------------------------smartphone section---------------------- */
+
+.card {
+    margin: 2px 10px;
+    border: none;
+    border-radius: 8px;
+    -webkit-box-shadow: 3px 13px 41px -7px rgba(133, 126, 133, 0.77);
+    -moz-box-shadow: 3px 13px 41px -7px rgba(133, 126, 133, 0.77);
+    box-shadow: 3px 13px 41px -7px rgba(133, 126, 133, 0.77);
+}
+
+.card-footer {
+    border: none;
+    background-color: white;
+}
+
+.card img {
+    height: 200px;
+    width: 220px;
+}
+
+.card p {
+    padding: 5px 30px;
+}
+
+.left img {
+    height: 300px;
+    width: 200px;
 }
